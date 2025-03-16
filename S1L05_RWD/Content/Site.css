@@ -18,8 +18,8 @@ body {
     background-color: var(--light);
 }
 
-@media (min-width: 700px) {
-    .carousel {
+@media only screen and (width < 700px) {
+    #myCarousel{
        display: none;
     }
 }
